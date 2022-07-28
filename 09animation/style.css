@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(90deg, #aaeeff 0%, #00ddff 100%);
+    color: #ffffff
+}
+.container{
+height:100vh;
+width:100vw;
+}
+.wrapper{
+    margin:0 auto;
+    height:500px;
+    width:500px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    border:3px solid black;
+
+}
+.left,.right{
+    height:100px;
+    width:100px;
+    background-color: #fff;
+    animation:pump 1.5s linear infinite
+}
+
+@keyframes pump{
+    0%,
+    100%{
+        transform:scale(0);
+    }
+    75%{
+        transform:scale(1);
+    }
+    50%{
+        transform:scale(1);
+    }
+
+}

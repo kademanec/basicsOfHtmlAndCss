@@ -1,0 +1,20 @@
+body{
+    background-color: #aaa;;
+}
+
+.nav{
+    background-color: #00aaff;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.header-divider{
+    width: 0px;
+    height: 40px;
+    border: solid .5px #000000;
+    vertical-align: sub;
+    
+}
+.users{
+    width:50px
+}
